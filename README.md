@@ -15,13 +15,10 @@ It provides users with essential information about the gym, including workout pr
 
 ⚙️ Flask Integration – Serves dynamic content efficiently.
 
-💻 Technologies Used:
-
+💻 Technologies Used
 HTML5
-
 CSS3
-
 Flask (Python)
-
 Jinja Templates
+
 
