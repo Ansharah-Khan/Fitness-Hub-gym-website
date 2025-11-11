@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Fitness Hub | Membership</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+  <header>
+    <div class="logo">The Fitness Hub</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="membership.html" class="active">Membership</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="membership">
+    <h2>Choose Your Plan</h2>
+    <div class="plan-container">
+      <div class="plan">
+        <img src="https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Basic">
+        <h3>Basic Plan</h3>
+        <p>Access to gym equipment</p>
+        <p class="price">₨ 2,000 / month</p>
+        <a href="#" class="btn">Join Now</a>
+      </div>
+
+      <div class="plan popular">
+        <img src="https://images.pexels.com/photos/7674484/pexels-photo-7674484.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Standard">
+        <h3>Standard Plan</h3>
+        <p>Includes group classes</p>
+        <p class="price">₨ 3,500 / month</p>
+        <a href="#" class="btn">Join Now</a>
+      </div>
+
+      <div class="plan">
+        <img src="https://images.pexels.com/photos/6453395/pexels-photo-6453395.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Premium">
+        <h3>Premium Plan</h3>
+        <p>Personal trainer + all access</p>
+        <p class="price">₨ 5,000 / month</p>
+        <a href="#" class="btn">Join Now</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 The Fitness Hub | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
